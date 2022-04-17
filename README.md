@@ -8,5 +8,5 @@ Created with React, Framer Motion, Chakra UI.
 
 # WIP
 
-> Smooth Scrollbar
-> Projects Page
+- Smooth Scrollbar
+- Projects Page
