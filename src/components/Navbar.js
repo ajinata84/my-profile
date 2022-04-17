@@ -73,8 +73,8 @@ export default function Navbar() {
           mt={{ base: 4, md: 0 }}
         >
           <Spacer></Spacer>
-          <LinkItem href={"/projects"}>Projects</LinkItem>
-          <LinkItem href={"/contact"}>Contact</LinkItem>
+          <LinkItem href={"/my-profile/projects"}>Projects</LinkItem>
+          <LinkItem href={"/my-profile/contact"}>Contact</LinkItem>
         </Stack>
         <Box ml={2}>
           <ThemeToggleButton></ThemeToggleButton>
@@ -89,13 +89,13 @@ export default function Navbar() {
                     aria-label="Options"
                   />
                   <MenuList>
-                    <NavLink to={"/"}>
+                    <NavLink to={"/my-profile/"}>
                       <MenuItem>About</MenuItem>
                     </NavLink>
-                    <NavLink to={"/projects"}>
+                    <NavLink to={"/my-profile/projects"}>
                       <MenuItem>Projects</MenuItem>
                     </NavLink>
-                    <NavLink to={"/contact"}>
+                    <NavLink to={"/my-profile/contact"}>
                       <MenuItem>Contact</MenuItem>
                     </NavLink>
                   </MenuList>

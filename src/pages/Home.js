@@ -169,7 +169,7 @@ export default function Home() {
 }
 
 const MyButton = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <Center>
@@ -186,7 +186,7 @@ const MyButton = () => {
           transition: { duration: 1, delay: 0.2, type: "spring" },
         }}
       >
-        <NavLink to={"/projects"}>
+        <NavLink to={"/my-profile/projects"}>
           <Box
             bg={colorMode === "light" ? "#97baff" : "#1A202C"}
             transition="150ms"
