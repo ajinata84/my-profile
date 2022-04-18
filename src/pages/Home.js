@@ -188,7 +188,7 @@ const MyButton = () => {
           transition: { duration: 1, delay: 0.2, type: "spring" },
         }}
       >
-        <NavLink to={"/my-profile/projects"}>
+        <NavLink to={"/projects"}>
           <Box
             bg={colorMode === "light" ? "#97baff" : "#2B3E66"}
             transition="150ms"

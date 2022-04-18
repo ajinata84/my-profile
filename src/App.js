@@ -52,9 +52,9 @@ export default function App() {
             <MainSection />
             <AnimatePresence exitBeforeEnter>
               <Routes location={location} key={location.pathname}>
-                <Route path="/my-profile/" element={<Home />} />
-                <Route path="/my-profile/projects" element={<Projects />} />
-                <Route path="/my-profile/contact" element={<Contact />} />
+                <Route path="" element={<Home />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
               </Routes>
             </AnimatePresence>
           </Container>

@@ -57,7 +57,7 @@ export default function Navbar() {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="md" letterSpacing="tighter">
-            <NavLink to={"/my-profile/"}>
+            <NavLink to={""}>
               <i>DJi</i>
             </NavLink>
           </Heading>
@@ -72,8 +72,8 @@ export default function Navbar() {
           mt={{ base: 4, md: 0 }}
         >
           <Spacer></Spacer>
-          <LinkItem href={"/my-profile/projects"}>Projects</LinkItem>
-          <LinkItem href={"/my-profile/contact"}>Contact</LinkItem>
+          <LinkItem href={"/projects"}>Projects</LinkItem>
+          <LinkItem href={"/contact"}>Contact</LinkItem>
         </Stack>
         <Box ml={2}>
           <ThemeToggleButton></ThemeToggleButton>
