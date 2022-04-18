@@ -143,7 +143,7 @@ export default function Home() {
                 listStyle: "none",
               }}
             >
-              <span>TOEFL - 2021</span>
+              <span>TOEFL - 2021 </span>
               <span style={{ marginLeft: "10px", fontWeight: 400 }}>-</span>
             </li>
           </ul>
