@@ -10,12 +10,14 @@ export default function Home() {
   return (
     <Container p={0}>
       <Box height={"30px"}></Box>
-      <SectionCard title="Tentang" delay={0.3}>
+      <SectionCard title="About" delay={0.3}>
         <Text fontWeight={500}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-          dolore natus nostrum cum quasi maiores dolor quaerat et mollitia
-          magnam, illo, tempore expedita sequi velit ullam tenetur consectetur
-          reiciendis. Numquam?
+          Anda bisa memanggil saya Aji, saya berdomisili di kota Malang, Jawa
+          Timur. Fresh Graduate dari SMK Telkom Malang. <br />
+          <br />
+          Saya bermotivasi untuk membuat app melalui framework ReactJS dan juga
+          bisa membuat REST Api menggunakan NodeJS dan Express, tidak hanya
+          membuat aplikasi saja, saya juga dapat mendesain aplikasi juga.
         </Text>
       </SectionCard>
       <MyButton />
@@ -188,10 +190,10 @@ const MyButton = () => {
       >
         <NavLink to={"/my-profile/projects"}>
           <Box
-            bg={colorMode === "light" ? "#97baff" : "#1A202C"}
+            bg={colorMode === "light" ? "#97baff" : "#2B3E66"}
             transition="150ms"
             _hover={{
-              background: colorMode === "light" ? "white" : "#2B3E66",
+              background: colorMode === "light" ? "white" : "#2F5198",
             }}
             mt={"20px"}
             justifyContent="center"
