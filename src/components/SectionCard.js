@@ -3,7 +3,7 @@ import Section from "./Section";
 import { Container, Heading, Box, useColorMode } from "@chakra-ui/react";
 
 export default function SectionCard({ children, title, delay = 0 }) {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <Section duration={0.3} delay={delay}>

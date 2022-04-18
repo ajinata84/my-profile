@@ -8,7 +8,6 @@ import {
   Flex,
   Spacer,
   Menu,
-  Link,
   MenuItem,
   MenuList,
   MenuButton,
@@ -58,7 +57,7 @@ export default function Navbar() {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="md" letterSpacing="tighter">
-            <NavLink to={"/"}>
+            <NavLink to={"/my-profile/"}>
               <i>DJi</i>
             </NavLink>
           </Heading>

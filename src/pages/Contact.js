@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Box, Text, Flex } from "@chakra-ui/react";
+import { Container } from "@chakra-ui/react";
 import SectionCard from "../components/SectionCard";
 import { BsWhatsapp } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";

@@ -12,7 +12,7 @@ import MainSection from "./pages/MainSection";
 
 export default function App() {
   const location = useLocation();
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <>
