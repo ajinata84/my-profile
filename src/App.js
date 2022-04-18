@@ -42,7 +42,7 @@ export default function App() {
           </motion.div>
           <Container
             p={"5px"}
-            margin={"40px"}
+            margin={{ base: "5px", md: "40px" }}
             mt={0}
             alignItems={"start"}
             alignSelf={"center"}
