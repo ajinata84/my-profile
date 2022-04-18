@@ -50,15 +50,13 @@ export default function App() {
             flexDirection={"column"}
           >
             <MainSection />
-            <div>
-              <AnimatePresence exitBeforeEnter>
-                <Routes location={location} key={location.pathname}>
-                  <Route path="/my-profile/" element={<Home />} />
-                  <Route path="/my-profile/projects" element={<Projects />} />
-                  <Route path="/my-profile/contact" element={<Contact />} />
-                </Routes>
-              </AnimatePresence>
-            </div>
+            <AnimatePresence exitBeforeEnter>
+              <Routes location={location} key={location.pathname}>
+                <Route path="/my-profile/" element={<Home />} />
+                <Route path="/my-profile/projects" element={<Projects />} />
+                <Route path="/my-profile/contact" element={<Contact />} />
+              </Routes>
+            </AnimatePresence>
           </Container>
         </Center>
       </AnimatePresence>
