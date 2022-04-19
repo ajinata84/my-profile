@@ -3,7 +3,7 @@ import SectionCard from "../components/SectionCard";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { VscGithub } from "react-icons/vsc";
-import { FaInstagramSquare } from "react-icons/fa";
+import { AiOutlineInstagram } from "react-icons/ai";
 import { Text, Box, Container, Center, useColorMode } from "@chakra-ui/react";
 
 export default function Home() {
@@ -161,7 +161,7 @@ export default function Home() {
           </div>
           <br />
           <div style={{ display: "inline-flex", alignItems: "center" }}>
-            <FaInstagramSquare size={"25px"} />
+            <AiOutlineInstagram size={"25px"} />
             <span style={{ marginLeft: "10px" }}>@ajinata84</span>
           </div>
         </div>
@@ -193,7 +193,7 @@ const MyButton = () => {
             bg={colorMode === "light" ? "#97baff" : "#2B3E66"}
             transition="150ms"
             _hover={{
-              background: colorMode === "light" ? "white" : "#2F5198",
+              background: colorMode === "light" ? "#2F5198" : "#2F5198",
             }}
             mt={"20px"}
             justifyContent="center"
